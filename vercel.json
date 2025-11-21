@@ -1,6 +1,6 @@
 {
-  "name": "my-v0-project",
-  "version": "1",
+  "name": "my-v1-project",
+  "version": 1,
 
 
   "outputDirectory": "public"
