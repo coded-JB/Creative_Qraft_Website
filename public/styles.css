@@ -898,3 +898,44 @@ body {
     width: 100%;
   }
 }
+
+.clients {
+  padding: 40px 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+.trust-text {
+  text-align: center;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.logo-track {
+  display: flex;
+  width: calc(250px * 10); /* Adjust based on number of logos */
+  animation: scroll 20s linear infinite;
+  gap: 60px;
+  align-items: center;
+}
+
+.logo-item {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ccc;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.logo-item:hover {
+  filter: grayscale(0%);
+  color: #333;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-250px * 5)); }
+}
